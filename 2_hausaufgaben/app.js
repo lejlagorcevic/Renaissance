@@ -62,6 +62,7 @@ function print_current_page() {
 }
 console.log("2. Printing current page:")
 console.log("___________________________________________");
+console.log("On page.");
 
 
 // 3. Write a JavaScript program to get the current date. 
@@ -84,6 +85,7 @@ console.log(today);
 today = dd + "/" + mm + "/" + yyyy;
 console.log(today);
 
+
 // 4. Write a JavaScript program to find the area of a triangle where lengths of the three of its sides are 5, 6, 7.
 console.log("___________________________________________");
 console.log("4. Area of a triangle")
@@ -102,8 +104,7 @@ console.log("5. Rotating string")
 console.log("XXXXXXXXXXXXXXXXXXXX")
 
 
-
-// 6. Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.console.log("___________________________________________");
+// 6. Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.
 console.log("___________________________________________");
 console.log("6. Leap year")
 function leapYear(year){
@@ -114,3 +115,47 @@ console.log(leapYear(2020));
 console.log(leapYear(2022));
 console.log(leapYear(2024));
 console.log(leapYear(2006));
+
+
+// 7. Write a JavaScript program to find 1st January is being a Sunday between 2014 and 2050. 
+console.log("___________________________________________");
+console.log("7. Sunday")
+console.log("XXXXXXXXXXXXXXXXXXXX") // nejasan deo- d = new Date(year, 0, 1);
+
+
+// 8. Write a JavaScript program where the program takes a random integer between 1 to 10,
+// the user is then prompted to input a guess number. If the user input matches with guess number,
+// the program will display a message "Good Work" otherwise display a message "Not matched". 
+console.log("___________________________________________");
+console.log("8. Guess the number")
+
+const num = Math.ceil(Math.random() * 10);
+console.log(num);
+const gnum = prompt("Guess the number from 0 to 10 inclusive:")
+if (gnum == num)
+console.log("Matched");
+else 
+console.log("Not matched. The number was " + num); //da li u console.log-u treba +num ili +gnum?
+
+
+// 9. Write a JavaScript program to calculate days left until next Christmas.
+console.log("___________________________________________");
+console.log("9. Days 'til Christmas")
+console.log("XXXXXXXXXXXXXXXXXXXX") //new Date, getMonth, getDay, getFullYear etc.
+
+
+// 10. Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
+console.log("___________________________________________");
+console.log("10. Multiplication and division program")
+console.log("On page.");
+
+function multiplyBy(){
+    num1 = document.getElementById("firstNumber").value;
+    num2 = document.getElementById("secondNumber").value;
+    document.getElementById("result").innerHTML = num1 * num2;
+}
+function divideBy(){
+    num1 = document.getElementById("firstNumber").value;
+    num2 = document.getElementById("secondNumber").value;
+    document.getElementById("result").innerHTML = num1 / num2; 
+}
