@@ -76,5 +76,3 @@ console.log(povrsina(2,2));
 
 
 
-ako importujes postojevi- ignorisi
-ako ne importujes postojeci- nemoj dda ignorises

@@ -104,3 +104,10 @@ if(hour===0 && prepand==="AM"){
 console.log("Third attempt. Current time : " + hour + ":" + minute + ":" + second + prepand);
 
 //allTogether
+var today = new Date();
+var day = today.getDay();
+var daylist = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+console.log("FINAL Today is : " + daylist[day] + ".")
+// and again
+var today = new Date();
+var day = today.getDay();
