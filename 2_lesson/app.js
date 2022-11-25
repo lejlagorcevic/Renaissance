@@ -74,3 +74,4 @@ const mail = function(satnica, minutnica){
     }
 }
 console.log(mail(14,32));
+console.log("________________________________");
