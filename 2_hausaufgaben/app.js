@@ -94,8 +94,23 @@ var s = (side1 + side2 + side3)/2;
 var area =  Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
 console.log(area);
 
+
 // 5. Write a JavaScript program to rotate the string 'w3resource' in right direction by periodically 
 // removing one letter from the end of the string and attaching it to the front.
 console.log("___________________________________________");
 console.log("5. Rotating string")
 console.log("XXXXXXXXXXXXXXXXXXXX")
+
+
+
+// 6. Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.console.log("___________________________________________");
+console.log("___________________________________________");
+console.log("6. Leap year")
+function leapYear(year){
+    return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+}
+console.log(leapYear(2016));
+console.log(leapYear(2020));
+console.log(leapYear(2022));
+console.log(leapYear(2024));
+console.log(leapYear(2006));
