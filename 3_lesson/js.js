@@ -26,7 +26,6 @@ const string4 = "Danas je bilo \"lepo\" vreme"
 const string2 = 'Danas je bilo lepo vreme.'
 //  3. ` `
 const string3 = `Danas je bilo lepo vreme.`
-console.log(string5);
 // \Možemo da pišemo u sledeći red
 // sa \ ne možemo nastavljati liniju koda već samo string
 
@@ -39,4 +38,11 @@ console.log(string6);
 // 2. substring metoda (start, end) razlika u odnosu na slice je da substring ne prihvata negativne indekse.
 // 3. substr(start, lenght)
 
-// Računanje ide od 0a
+// Računanje ide od 0.
+const string7 = "Danas je bilo lepo vreme."
+console.log(string7.slice(0,5));
+console.log(string7.slice(-6,-1));
+
+console.log(string7.substring(0,5));
+
+console.log(string7.substr(0,8));
