@@ -126,16 +126,16 @@ console.log("XXXXXXXXXXXXXXXXXXXX") // nejasan deo- d = new Date(year, 0, 1);
 // 8. Write a JavaScript program where the program takes a random integer between 1 to 10,
 // the user is then prompted to input a guess number. If the user input matches with guess number,
 // the program will display a message "Good Work" otherwise display a message "Not matched". 
-console.log("___________________________________________");
-console.log("8. Guess the number")
+// console.log("___________________________________________");
+// console.log("8. Guess the number")
 
-const num = Math.ceil(Math.random() * 10);
-console.log(num);
-const gnum = prompt("Guess the number from 0 to 10 inclusive:")
-if (gnum == num)
-console.log("Matched");
-else 
-console.log("Not matched. The number was " + num); //da li u console.log-u treba +num ili +gnum?
+// const num = Math.ceil(Math.random() * 10);
+// console.log(num);
+// const gnum = prompt("Guess the number from 0 to 10 inclusive:")
+// if (gnum == num)
+// console.log("Matched");
+// else 
+// console.log("Not matched. The number was " + num); //da li u console.log-u treba +num ili +gnum?
 
 
 // 9. Write a JavaScript program to calculate days left until next Christmas.
@@ -159,3 +159,36 @@ function divideBy(){
     num2 = document.getElementById("secondNumber").value;
     document.getElementById("result").innerHTML = num1 / num2; 
 }
+
+
+// 11. Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit. 
+// [ Formula : c/5 = (f-32)/9 [ where c = temperature in Celsius and f = temperature in Fahrenheit ]
+// Expected Output :
+// 60°C is 140 °F
+// 45°F is 7.222222222222222°C
+console.log("___________________________________________");
+console.log("11. From Celsius to Fahrenheit")
+console.log("XXXXXXXXXXXXXXXXXXXX")
+
+
+// 12. Write a JavaScript program to get the website URL (loading page).
+console.log("___________________________________________");
+console.log("12. URL (loading page)")
+// alert("document.URL")                                                           // ne radi?
+console.log("XXXXXXXXXXXXXXXXXXXX")
+
+
+// 13. Write a JavaScript exercise to create a variable using a user-defined name.
+console.log("___________________________________________");
+console.log("13. variable using a user-defined name)")
+var Lejla = 'abcd';
+var g = 2002;
+this[Lejla] = g;
+console.log(this[Lejla])
+
+
+// 14. Write a JavaScript exercise to get the extension of a filename.
+console.log("___________________________________________");
+console.log("14. The extension of a filename")
+console.log("XXXXXXXXXXXXXXXXXXXX")                                                 // nejasno
+
