@@ -192,3 +192,29 @@ console.log("___________________________________________");
 console.log("14. The extension of a filename")
 console.log("XXXXXXXXXXXXXXXXXXXX")                                                 // nejasno
 
+// 15. Write a JavaScript program to get the difference between a given number and 13, 
+// if the number is greater than 13 return double the absolute difference.
+console.log("___________________________________________");
+console.log("15. Zbir")
+function difference(d)
+ {
+    if (d <= 13)
+        return 13 - d;
+    else
+        return (d - 13) * 2;
+ }
+console.log(difference(4))
+console.log(difference(14))
+
+// 16. Write a JavaScript program to compute the sum of the two given integers.
+//  If the two values are same, then returns triple their sum.
+function zbirTri(a, b) {
+    if (a == b){
+        return 3 * (a + b);
+    } else{
+        return (a + b);
+    }
+}
+console.log(zbirTri(2, 8));
+console.log(zbirTri(8, 8));                                  // Zašto se u log-u prikazuje 9 i 2?
+
