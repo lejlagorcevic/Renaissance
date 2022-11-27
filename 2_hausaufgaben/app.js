@@ -277,3 +277,14 @@ console.log(pozNeg(3));
 console.log(pozNeg(0));
 console.log(pozNeg(-3));
 console.log(pozNeg("Nula"));
+
+// 21. Write a JavaScript program to create a new string adding "Py" in front of a given string. 
+// If the given string begins with "Py" then return the original string.
+console.log("___________________________________________");
+console.log("21. Adding Py to a string")
+console.log("XXXXXXXXXXXXXXXXXXXX")                                                              //NEJASNO!
+
+
+// 22. Write a JavaScript program to remove a character at the specified position 
+// of a given string and return the new string.
+
