@@ -300,6 +300,11 @@ console.log(remove_character("Python",3));
 console.log(remove_character("Python",5));
 
 
-function removeCharacter(str,charPos){
-    
+function removeCharacter(str, charPos){
+    part1 = str.substring(0, charPos);
+    part2 = str.substring(charPos + 1, str.length);
+    return(part1 + part2)
 }
+console.log(removeCharacter("Python",0));
+console.log(removeCharacter("Python",2));
+console.log(removeCharacter("Python",4));
