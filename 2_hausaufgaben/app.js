@@ -208,6 +208,9 @@ console.log(difference(14))
 
 // 16. Write a JavaScript program to compute the sum of the two given integers.
 //  If the two values are same, then returns triple their sum.
+console.log("___________________________________________");
+console.log("17. If a === b")
+
 function zbirTri(a, b) {
     if (a == b){
         return 3 * (a + b);
@@ -218,3 +221,59 @@ function zbirTri(a, b) {
 console.log(zbirTri(2, 8));
 console.log(zbirTri(8, 8));                                  // Zašto se u log-u prikazuje 9 i 2?
 
+
+// 17. Write a JavaScript program to compute the absolute difference between a specified number and 19. 
+// Returns triple their absolute difference if the specified number is greater than 19.
+console.log("___________________________________________");
+console.log("17. Absolute difference")
+
+function difference1(n){
+    if (n <= 19) {
+        return (19 - n);
+    } else {
+        return (n - 19) * 3;
+    }
+}
+console.log(difference1(23));
+
+
+// 18. Write a JavaScript program to check two given numbers and return true 
+// if one of the number is 50 or if their sum is 50.
+console.log("___________________________________________");
+console.log("18. Check given numbers")
+
+function checkNumbers (a, b){
+    return ((a == 50 || b == 50) || (a + b == 50))
+}
+console.log(checkNumbers(50, 23));
+console.log(checkNumbers(25, 23));
+console.log(checkNumbers(43, 7));
+console.log(checkNumbers(25, 25));
+
+
+// 19. Write a JavaScript program to check whether a given integer is within 20 of 100 or 400. 
+console.log("___________________________________________");
+console.log("19. Nejasno")
+console.log("XXXXXXXXXXXXXXXXXXXX")                                                               //nejasno
+
+
+// 20. Write a JavaScript program to check from two given integers, 
+// whether one is positive and another one is negative.
+console.log("___________________________________________");
+console.log("20. Positive/negative")
+
+function pozNeg(p) {
+    if (p > 0) {
+        return "Pozitivan broj";
+    } else if (p === 0){
+        return "Nula";
+    } else if (p < 0){
+        return "Negativan broj";
+    } else if (p = isNaN){
+        return "Nije broj";
+    }
+}
+console.log(pozNeg(3));
+console.log(pozNeg(0));
+console.log(pozNeg(-3));
+console.log(pozNeg("Nula"));
