@@ -318,3 +318,18 @@ function first_last(str1)
 console.log(first_last('a'));
 console.log(first_last('ab'));
 console.log(first_last('abc'));
+
+
+// 24. Write a JavaScript program to create a new string from a given string with the 
+// first character of the given string added at the front and back.
+console.log("___________________________________________");
+console.log("23. Adding characters to a string ")
+
+function front_back(str)
+{
+  first = str.substring(0,1);
+  return first + str + first;
+}
+console.log(front_back('a'));
+console.log(front_back('ab'));
+console.log(front_back('abc'));
