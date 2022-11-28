@@ -287,6 +287,8 @@ console.log("XXXXXXXXXXXXXXXXXXXX")                                             
 
 // 22. Write a JavaScript program to remove a character at the specified position 
 // of a given string and return the new string.
+console.log("___________________________________________");
+console.log("22. Remove a character from a string")
 
 function remove_character(str, char_pos) 
  {
@@ -296,15 +298,23 @@ function remove_character(str, char_pos)
  }
 
 console.log(remove_character("Python",0));
-console.log(remove_character("Python",3));
-console.log(remove_character("Python",5));
+console.log(remove_character("Python",3));                                                        // Resenje sa sajta //
+console.log(remove_character("Python",5));                                                        // NEJASNO!
 
+// 23. Write a JavaScript program to create a new string from a given string changing the position of first and last characters. 
+// The string length must be greater than or equal to 1.
+console.log("___________________________________________");
+console.log("22. Changing the position of characters in string")
 
-function removeCharacter(str, charPos){
-    part1 = str.substring(0, charPos);
-    part2 = str.substring(charPos + 1, str.length);
-    return(part1 + part2)
+function first_last(str1) 
+  {
+  if (str1.length <= 1)
+  {
+    return str1;
+  }
+  mid_char = str1.substring(1, str1.length - 1);
+  return (str1.charAt(str1.length - 1)) + mid_char + str1.charAt(0);
 }
-console.log(removeCharacter("Python",0));
-console.log(removeCharacter("Python",2));
-console.log(removeCharacter("Python",4));
+console.log(first_last('a'));
+console.log(first_last('ab'));
+console.log(first_last('abc'));
