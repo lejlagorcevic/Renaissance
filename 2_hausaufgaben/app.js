@@ -323,7 +323,7 @@ console.log(first_last('abc'));
 // 24. Write a JavaScript program to create a new string from a given string with the 
 // first character of the given string added at the front and back.
 console.log("___________________________________________");
-console.log("23. Adding characters to a string ")
+console.log("24. Adding characters to a string ")
 
 function front_back(str)
 {
@@ -333,3 +333,24 @@ function front_back(str)
 console.log(front_back('a'));
 console.log(front_back('ab'));
 console.log(front_back('abc'));
+
+
+// 25. Write a JavaScript program to check whether a given positive number is a multiple of 3 or a multiple of 7. 
+console.log("___________________________________________");
+console.log("25. Checking if a number is  positive ")
+
+function test37(x) 
+{
+  if (x % 3 == 0 || x % 7 == 0) 
+  {
+    return true;
+  } 
+  else {
+    return false;
+  }
+}
+
+console.log(test37(12));
+console.log(test37(14));
+console.log(test37(10));
+console.log(test37(11));
