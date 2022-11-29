@@ -325,8 +325,7 @@ console.log(first_last('abc'));
 console.log("___________________________________________");
 console.log("24. Adding characters to a string ")
 
-function front_back(str)
-{
+function front_back(str) {
   first = str.substring(0,1);
   return first + str + first;
 }
@@ -335,22 +334,3 @@ console.log(front_back('ab'));
 console.log(front_back('abc'));
 
 
-// 25. Write a JavaScript program to check whether a given positive number is a multiple of 3 or a multiple of 7. 
-console.log("___________________________________________");
-console.log("25. Checking if a number is  positive ")
-
-function test37(x) 
-{
-  if (x % 3 == 0 || x % 7 == 0) 
-  {
-    return true;
-  } 
-  else {
-    return false;
-  }
-}
-
-console.log(test37(12));
-console.log(test37(14));
-console.log(test37(10));
-console.log(test37(11));

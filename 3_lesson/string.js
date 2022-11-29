@@ -1,4 +1,4 @@
-// STRINGOVI //
+// STRINGOVI  PART 1 //
 // Stringovi su immutable vrednosti (nepromenjive).
 // Što znači da- ako hoćemo neki sličan string da dobijemo, moramo napraviti novi.
 
