@@ -6,10 +6,18 @@
 // Primer
 // Ulaz 1234
 // Izlaz 10
-function sumNumbers(){
-    num1 = document.getElementById("number1").value;
-    num2 = document.getElementById("number2").value;
-    num3 = document.getElementById("number3").value;
-    num4 = document.getElementById("number4").value;
-    document.getElementById("result").innerHTML = num1(Number) + num2(Number) + num3(Number) + num4(Number);
-}git add 
+const sumaCifara = (broj) => {
+    if (isNaN(broj) || broj < 1000 || broj > 9999) {
+      return "Argument nije korektan.";
+    } else {
+      const cifraJedinice = broj % 10;
+      const cifraDesetice = Math.trunc((broj % 100) / 10);
+      const cifraStotine = Math.trunc((broj % 1000) / 100);
+      const cifraHiljade = Math.trunc(broj / 1000);
+      return cifraJedinice + cifraDesetice + cifraStotine + cifraHiljade;
+    }
+  };
+  console.log(sumaCifara("1231sdf"));
+  console.log(sumaCifara(100));
+  console.log(sumaCifara(4932));
+  1234;
