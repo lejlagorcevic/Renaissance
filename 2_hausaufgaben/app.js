@@ -334,3 +334,20 @@ console.log(front_back('ab'));
 console.log(front_back('abc'));
 
 
+// 25. Write a JavaScript program to check whether a given positive number 
+// is a multiple of 3 or a multiple of 7. 
+console.log("___________________________________________");
+console.log("25. Is the given number a multiple of 3 or 7 ")
+
+function zadatak25(x) {
+  if (x % 3 == 0 || x % 7 == 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(zadatak25(12));
+console.log(zadatak25(14));
+console.log(zadatak25(10));
+console.log(zadatak25(11));
