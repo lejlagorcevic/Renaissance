@@ -351,4 +351,38 @@ function zadatak25(x) {
 console.log(zadatak25(12));
 console.log(zadatak25(14));
 console.log(zadatak25(10));
-console.log(test37(11));
+
+
+// 26. Write a JavaScript program to create a new string from a given string taking the last 
+// 3 characters and added at both the front and back. The string length must be 3 or more.
+console.log("___________________________________________");
+console.log("26. A new string to a given string ")
+
+function odPozadi(str){
+  if (str.length>=3){
+   str_len = 3;
+   back = str.substring(str.length-3);
+   return back + str + back;
+ } else
+     return false;
+ }
+console.log(odPozadi("leks"));
+
+// 27. Write a JavaScript program to check whether a string starts with 'Java' and false otherwise. 
+console.log("___________________________________________");
+console.log("27. Check if a string starts with Java ")
+
+function checkovanje(str){
+  if (str.length < 4){
+    return false;
+  } front = str.substring(0, 4);
+  if (front == 'Java') {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(checkovanje("JavaScript"));
+console.log(checkovanje("ScriptJava"));
+console.log(checkovanje("NestoTrece"));

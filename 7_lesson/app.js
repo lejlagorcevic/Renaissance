@@ -66,6 +66,18 @@ console.log(typeof l);
 // a) pretvara km u m
 // b) prtvara inch u cm
 
+
+
+// Prvi način (html, unos preko browsera)
 function LengthConverter(kmUm) {
   document.getElementById("outputMeters").innerHTML=kmUm * 1000;
 }
+
+// Drugi način (preko console)
+function kmToM(km) {
+    return km * 1000;
+  }
+
+  console.log(kmToM(4.68));
+ 
+  
