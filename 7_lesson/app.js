@@ -66,4 +66,6 @@ console.log(typeof l);
 // a) pretvara km u m
 // b) prtvara inch u cm
 
-function
+function LengthConverter(kmUm) {
+  document.getElementById("outputMeters").innerHTML=kmUm * 1000;
+}
