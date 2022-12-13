@@ -347,7 +347,8 @@ function zadatak25(x) {
   }
 }
 
+
 console.log(zadatak25(12));
 console.log(zadatak25(14));
 console.log(zadatak25(10));
-console.log(zadatak25(11));
+console.log(test37(11));
