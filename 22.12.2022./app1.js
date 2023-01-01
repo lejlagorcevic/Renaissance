@@ -83,3 +83,4 @@ const bliziSto = (num1, num2) => {
     return "Blizi je broj " + bliziBroj;
 }
 console.log(bliziSto(120, 89));
+
